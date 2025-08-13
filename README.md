@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=techking1" alt="techking1" /></a> </p>
 
-- 🌱 I’m currently learning **SWE, Databases, CyberSecurity**
+- 🌱 I’m currently learning about **Information Security, Digital Forensics and Penetration Testing.**
 
 - 💬 Ask me about **C++, Python and Git**
 
