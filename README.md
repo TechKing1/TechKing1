@@ -1,76 +1,69 @@
-<h1 align="center">Ahmed Moataz</h1>
-<p align="center">
-  Cybersecurity student · Cairo, EG<br>
-  DFIR · SOC Operations · Penetration Testing · GRC
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f6e56&height=120&section=header" width="100%"/>
 
-<p align="center">
-  <a href="https://linkedin.com/in/ahmed-moataz05">LinkedIn</a> ·
-  <a href="mailto:ah.moataz05@gmail.com">Email</a>
-</p>
+<h2>hey, I'm Ahmed <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/></h2>
 
----
+> *I break things to understand them, then build things to fix them.*
 
-I'm a final-year Computer Science student at Egypt University of Informatics, specializing in Cybersecurity. My work sits at the intersection of forensics, detection engineering, and SOC automation — I care about making security operations faster and harder to fool.
+I'm a final-year Cybersecurity student at Egypt University of Informatics — based in Cairo, operating somewhere between the blue team and the red team depending on the day. My brain lives in forensics, detection engineering, and the question of why SOCs are still so exhausting to work in.
 
-Most recently, I completed an InfoSec internship at **Fawry** where I ran forensic triage workflows using KAPE, conducted penetration testing on network and endpoint infrastructure, and contributed to data protection controls including DLP and conditional access policies.
-
-I also discovered and responsibly disclosed an **IDOR vulnerability in Canvas LMS** (CVE-pending) — enrolled students could access other students' private submission files by enumerating sequential file IDs. Reported via Bugcrowd, currently under triage.
+When I'm not chasing memory artifacts or writing automation pipelines, I'm writing essays on Substack or painting 3D-printed sci-fi models. Security and storytelling, basically.
 
 ---
 
-### Projects
+### what I'm building
 
-**Memflow** — Automated Memory Forensics Tool  
-An intelligent system for automating digital memory forensics using a custom rule engine. Built to reduce the manual overhead of forensic triage and streamline incident response workflows.  
-`Python` `Memory Forensics` `Rule Engine` `DFIR`
+**🧠 Memflow** — automated memory forensics  
+A custom rule engine that replaces manual triage. Feed it a memory dump, get structured findings. The goal is removing the 2am analyst bottleneck.
 
-**Heimdall (SOCopilot)** — AI-Driven SOC Automation Pipeline  
-An end-to-end SOC automation pipeline integrating Wazuh, n8n, and LLMs to streamline alert triage, enrichment, and incident response. Built around one question: how do you make a SOC operate faster with less analyst fatigue?  
-`Wazuh` `n8n` `LLMs` `SIEM` `Automation`
+**🛡️ Heimdall (SOCopilot)** — AI-driven SOC automation  
+Wazuh + n8n + LLMs, wired together to triage alerts, enrich context, and surface what actually matters. Because alert fatigue is a solved problem if you're willing to build the solution.
 
 ---
 
-### Skills
+### what I've found
+
+| target | vuln | severity | status |
+|--------|------|----------|--------|
+| Canvas LMS | IDOR — sequential file IDs expose private student submission feedback to any enrolled user | Medium–High | 📬 Reported via Bugcrowd · pending triage |
+
+> No automated scanning. No bulk enumeration. Just a curious student, a URL, and an integer that shouldn't have worked.
+
+---
+
+### where I've worked
+
+**Fawry** *(InfoSec Intern)* — forensic triage with KAPE, registry analysis, Kill Chain mapping, penetration testing, WAF exposure identification, DLP + conditional access policies, GRC  
+**Xceed** *(IT Intern)* — backend dev, MySQL, Python, ASP.NET
+
+---
+
+### the toolkit
+
+![Python](https://img.shields.io/badge/Python-1D9E75?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-0F6E56?style=flat-square&logo=cplusplus&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-085041?style=flat-square&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1D9E75?style=flat-square&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-0F6E56?style=flat-square&logoColor=white)
+![KAPE](https://img.shields.io/badge/KAPE-085041?style=flat-square&logoColor=white)
+![Git](https://img.shields.io/badge/Git-1D9E75?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-0F6E56?style=flat-square&logo=linux&logoColor=white)
 
 ```
-Offensive         Metasploit · Nmap · Burp Suite · Penetration Testing · Vulnerability Assessment
-Defensive         SIEM/XDR · EDR · KAPE · Wireshark · Incident Response · Wazuh
-Forensics         Memory Forensics · Registry Analysis · Cyber Kill Chain · KAPE · DFIR
-GRC               DLP · MAM · EDRM · Conditional Access · Risk Management · ISO 27001
-Development       Python · C++ · MySQL · Git
+forensics     KAPE · memory analysis · registry · Kill Chain · DFIR
+detection     SIEM/XDR · EDR · Wazuh · alert triage · threat intel
+offensive     Metasploit · Nmap · Burp Suite · vuln assessment
+GRC           DLP · MAM · EDRM · conditional access · risk management
+building      Python · C++ · n8n · automation pipelines
 ```
 
 ---
 
-### Certifications
+### elsewhere
 
-- Google Cybersecurity Professional Certificate
-- Cybersecurity Fundamentals — IBM
-- Network Essentials
-- Career Essentials in Software Development — Microsoft & LinkedIn
-- DEPI Forensics Investigator Track *(in progress)*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--moataz05-1D9E75?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-moataz05)
+[![Email](https://img.shields.io/badge/Email-ah.moataz05@gmail.com-0F6E56?style=flat-square&logo=gmail&logoColor=white)](mailto:ah.moataz05@gmail.com)
+[![Bugcrowd](https://img.shields.io/badge/Bugcrowd-active-085041?style=flat-square&logoColor=white)](https://bugcrowd.com)
 
 ---
 
-### Experience
-
-**Fawry** — InfoSec Intern *(Aug–Sep 2025)*  
-Forensic triage · penetration testing · WAF exposure analysis · DLP · GRC
-
-**Xceed** — IT Intern *(Sep 2023)*  
-Backend development · MySQL · Python · ASP.NET
-
----
-
-### Bug Bounty
-
-| Target | Vulnerability | Severity | Status |
-|--------|--------------|----------|--------|
-| Canvas LMS (eui.instructure.com) | IDOR — course file enumeration exposes private student submissions | Medium–High | Reported via Bugcrowd, pending triage |
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&count_private=true&theme=default" alt="GitHub stats" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f6e56&height=80&section=footer" width="100%"/>
