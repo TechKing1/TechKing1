@@ -1,19 +1,76 @@
-<h1 align="center">Hi 👋, I'm Ahmed Moataz</h1>
-<h3 align="center">A passionate Computer Science student from Egypt</h3>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=techking1" alt="techking1" /></a> </p>
-
-- 🌱 I’m currently learning about **Information Security, Digital Forensics and Penetration Testing.**
-
-- 💬 Ask me about **C++, Python and Git**
-
-- 📫 How to reach me **ah.moataz05@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/ahmed-moataz05/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ahmed-moataz05/" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/techking1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="techking1" height="30" width="40" /></a>
+<h1 align="center">Ahmed Moataz</h1>
+<p align="center">
+  Cybersecurity student · Cairo, EG<br>
+  DFIR · SOC Operations · Penetration Testing · GRC
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://linkedin.com/in/ahmed-moataz05">LinkedIn</a> ·
+  <a href="mailto:ah.moataz05@gmail.com">Email</a>
+</p>
+
+---
+
+I'm a final-year Computer Science student at Egypt University of Informatics, specializing in Cybersecurity. My work sits at the intersection of forensics, detection engineering, and SOC automation — I care about making security operations faster and harder to fool.
+
+Most recently, I completed an InfoSec internship at **Fawry** where I ran forensic triage workflows using KAPE, conducted penetration testing on network and endpoint infrastructure, and contributed to data protection controls including DLP and conditional access policies.
+
+I also discovered and responsibly disclosed an **IDOR vulnerability in Canvas LMS** (CVE-pending) — enrolled students could access other students' private submission files by enumerating sequential file IDs. Reported via Bugcrowd, currently under triage.
+
+---
+
+### Projects
+
+**Memflow** — Automated Memory Forensics Tool  
+An intelligent system for automating digital memory forensics using a custom rule engine. Built to reduce the manual overhead of forensic triage and streamline incident response workflows.  
+`Python` `Memory Forensics` `Rule Engine` `DFIR`
+
+**Heimdall (SOCopilot)** — AI-Driven SOC Automation Pipeline  
+An end-to-end SOC automation pipeline integrating Wazuh, n8n, and LLMs to streamline alert triage, enrichment, and incident response. Built around one question: how do you make a SOC operate faster with less analyst fatigue?  
+`Wazuh` `n8n` `LLMs` `SIEM` `Automation`
+
+---
+
+### Skills
+
+```
+Offensive         Metasploit · Nmap · Burp Suite · Penetration Testing · Vulnerability Assessment
+Defensive         SIEM/XDR · EDR · KAPE · Wireshark · Incident Response · Wazuh
+Forensics         Memory Forensics · Registry Analysis · Cyber Kill Chain · KAPE · DFIR
+GRC               DLP · MAM · EDRM · Conditional Access · Risk Management · ISO 27001
+Development       Python · C++ · MySQL · Git
+```
+
+---
+
+### Certifications
+
+- Google Cybersecurity Professional Certificate
+- Cybersecurity Fundamentals — IBM
+- Network Essentials
+- Career Essentials in Software Development — Microsoft & LinkedIn
+- DEPI Forensics Investigator Track *(in progress)*
+
+---
+
+### Experience
+
+**Fawry** — InfoSec Intern *(Aug–Sep 2025)*  
+Forensic triage · penetration testing · WAF exposure analysis · DLP · GRC
+
+**Xceed** — IT Intern *(Sep 2023)*  
+Backend development · MySQL · Python · ASP.NET
+
+---
+
+### Bug Bounty
+
+| Target | Vulnerability | Severity | Status |
+|--------|--------------|----------|--------|
+| Canvas LMS (eui.instructure.com) | IDOR — course file enumeration exposes private student submissions | Medium–High | Reported via Bugcrowd, pending triage |
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&count_private=true&theme=default" alt="GitHub stats" />
+</p>
